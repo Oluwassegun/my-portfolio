@@ -27,7 +27,7 @@ import {
   
   export const navLinks = [
     {
-      id: "about",
+      id: "About",
       title: "About",
     },
     {
@@ -46,17 +46,13 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Front End Developer",
+      icon: web,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+      title: "Full Stack Developer",
+      icon: web,
+    }
   ];
   
   const technologies = [
@@ -105,10 +101,6 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
@@ -116,57 +108,31 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Developer",
+      company_name: "FreeLancer",
+  
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "2021 - present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilized Next.js and associated technologies to develop and maintain web applications for clients.",
+        "Fostered collaboration with cross-functional teams, including designers, product managers, and fellow developers, to deliver top-notch products.",
+        "Implemented responsive design techniques and ensured compatibility across various browsers.",
+        "Actively participated in code reviews, offering valuable feedback to enhance the work of other developers.",
+         "Database migrations"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Front End Developer",
+      company_name: "Avover",
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2020 - present(Contract)",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Creating responsive user interfaces using modern front-end technologies for engaging media experiences.",
+       "Optimizing website performance through efficient coding practices and advanced techniques.",
+       "Integrating third-party APIs and services to enhance media features seamlessly.",
+       "Implementing front-end security measures for safeguarding user data and privacy."
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
