@@ -108,7 +108,7 @@ import {
       company_name: "FreeLancer",
   
       iconBg: "#383E56",
-      date: "2021 - present",
+      date: "2022 - present",
       points: [
         "Utilized Next.js and associated technologies to develop and maintain web applications for clients.",
         "Fostered collaboration with cross-functional teams, including designers, product managers, and fellow developers, to deliver top-notch products.",
@@ -121,12 +121,16 @@ import {
       title: "Front End Developer",
       company_name: "Avover",
       iconBg: "#E6DEDD",
-      date: "Jan 2020 - present(Contract)",
+      date: "FEB 2022 - present",
       points: [
-        "Creating responsive user interfaces using modern front-end technologies for engaging media experiences.",
-       "Optimizing website performance through efficient coding practices and advanced techniques.",
-       "Integrating third-party APIs and services to enhance media features seamlessly.",
-       "Implementing front-end security measures for safeguarding user data and privacy."
+        "Created responsive user interfaces using modern front-end technologies for engaging media experiences.",
+        "Implemented robust front-end security measures for user data protection.",
+        "Led development and maintenance of the news company's website, ensuring a dynamic and current user experience.",
+        "Customised and managed content management systems (CMS) to streamline news article publication and content management.",
+        "Designed and implemented responsive, cross-browser compatible user interfaces for both desktop and mobile users.",
+        "Developed and maintained server-side applications, databases, and APIs for efficient content retrieval and user data management.",
+        "Designed, maintained, and optimised databases to handle large volumes of news articles, user-generated content, and comments.",
+        "Implemented robust user authentication and authorisation systems to ensure secure access to premium content and user accounts."
       ],
     }
   ];
