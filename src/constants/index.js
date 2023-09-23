@@ -164,7 +164,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "E-commerce Dashboard",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -173,59 +173,131 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Next.js",
           color: "green-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: 'Prisma',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'MYSQL',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'TypeScript',
+          color: 'blue-text-gradient'
+        }
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://e-commerce-main-three.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "E-commerce Dashboard",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Next.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: 'Prisma',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'MYSQL',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'TypeScript',
+          color: 'blue-text-gradient'
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: carrent,
+      source_code_link: "https://e-commerce-main-three.vercel.app/",
     },
+
     {
-      name: "Trip Guide",
+      name: "E-commerce Dashboard",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Next.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: 'Prisma',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'MYSQL',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'TypeScript',
+          color: 'blue-text-gradient'
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: carrent,
+      source_code_link: "https://e-commerce-main-three.vercel.app/",
     },
+
+    {
+      name: "E-commerce Dashboard",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: 'Prisma',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'MYSQL',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'TypeScript',
+          color: 'blue-text-gradient'
+        }
+      ],
+      image: carrent,
+      source_code_link: "https://e-commerce-main-three.vercel.app/",
+    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects };
