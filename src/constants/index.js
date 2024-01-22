@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    screenshot
   } from "../assets";
   
   export const navLinks = [
@@ -88,18 +89,12 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+   
     {
       name: "git",
       icon: git,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    
   ];
   
   const experiences = [
@@ -164,9 +159,9 @@ import {
   
   const projects = [
     {
-      name: "E-commerce Dashboard",
+      name: "E-commerce",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search and order most played games, providing a convenient and efficient solution for Gaming needs.",
       tags: [
         {
           name: "react",
@@ -181,11 +176,11 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: 'Prisma',
+          name: 'redux',
           color: 'green-text-gradient'
         },
         {
-          name: 'MYSQL',
+          name: 'sanity',
           color: 'green-text-gradient'
         },
         {
@@ -193,8 +188,8 @@ import {
           color: 'blue-text-gradient'
         }
       ],
-      image: carrent,
-      source_code_link: "https://e-commerce-main-three.vercel.app/",
+      image: screenshot,
+      source_code_link: "https://nexjs-ecommerce-seven.vercel.app/",
     },
     {
       name: "E-commerce Dashboard",

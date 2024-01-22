@@ -49,7 +49,7 @@ const About = () => {
             I am a Web Developer with 2+ years of experience
              designing and developing responsive 
             websites and web applications.
-             Proficient in HTML, CSS, JavaScript, Webpack and 
+             Proficient in HTML, CSS, JavaScript, Redux Webpack and 
              various web development 
             libraries and frameworks such as ReactJS, 
             TailwindCSS, Express, MongoDB and Next.js. Strong 

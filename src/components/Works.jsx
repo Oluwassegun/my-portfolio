@@ -22,7 +22,7 @@ tags, image, source_code_link }) => {
           scale: 1,
           speed: 450
         }} className="bg-tertiary p-5 rounded-2xl
-        sm:w-[360px] w-full relative w-full h-auto">
+        sm:w-[360px] w-full relative h-auto">
         <img src={image} alt={name} className="w-full
         h-full object-cover rounded-2xl"/>
           <h3 className="mt-5 text-white font-bold
