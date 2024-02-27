@@ -23,7 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
-    screenshot
+    screenshot,
+    auth
+
   } from "../assets";
   
   export const navLinks = [
@@ -192,9 +194,9 @@ import {
       source_code_link: "https://nexjs-ecommerce-seven.vercel.app/",
     },
     {
-      name: "E-commerce Dashboard",
+      name: "Next Auth V5",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The application provides secure authentication features, allowing users to seamlessly login, register, and verify their identities. Once logged in, users can easily update their personal information, including their names and details, ensuring a personalized and flexible user experience within the platform.",
       tags: [
         {
           name: "react",
@@ -213,7 +215,7 @@ import {
           color: 'green-text-gradient'
         },
         {
-          name: 'MYSQL',
+          name: 'PostgreSQL ',
           color: 'green-text-gradient'
         },
         {
@@ -221,8 +223,8 @@ import {
           color: 'blue-text-gradient'
         }
       ],
-      image: carrent,
-      source_code_link: "https://e-commerce-main-three.vercel.app/",
+      image: auth,
+      source_code_link: "https://next14-auth-masterclass-liart.vercel.app/",
     },
 
     {

@@ -30,6 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import screenshot from './screenshot.png'
+import auth from './auth.jpeg'
 
 export {
   logo,
@@ -60,5 +61,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  screenshot
+  screenshot,
+  auth
 };
