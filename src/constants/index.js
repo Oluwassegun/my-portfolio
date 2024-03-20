@@ -188,6 +188,10 @@ import {
         {
           name: 'TypeScript',
           color: 'blue-text-gradient'
+        },
+        {
+          name: 'MongoDb',
+          color: 'green-text-gradient'
         }
       ],
       image: screenshot,
@@ -227,73 +231,6 @@ import {
       source_code_link: "https://next14-auth-masterclass-liart.vercel.app/",
     },
 
-    {
-      name: "E-commerce Dashboard",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Next.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-        {
-          name: 'Prisma',
-          color: 'green-text-gradient'
-        },
-        {
-          name: 'MYSQL',
-          color: 'green-text-gradient'
-        },
-        {
-          name: 'TypeScript',
-          color: 'blue-text-gradient'
-        }
-      ],
-      image: carrent,
-      source_code_link: "https://e-commerce-main-three.vercel.app/",
-    },
-
-    {
-      name: "E-commerce Dashboard",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Next.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-        {
-          name: 'Prisma',
-          color: 'green-text-gradient'
-        },
-        {
-          name: 'MYSQL',
-          color: 'green-text-gradient'
-        },
-        {
-          name: 'TypeScript',
-          color: 'blue-text-gradient'
-        }
-      ],
-      image: carrent,
-      source_code_link: "https://e-commerce-main-three.vercel.app/",
-    },
     
   ];
   
