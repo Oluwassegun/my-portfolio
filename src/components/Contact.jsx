@@ -8,7 +8,7 @@ const Contact = () => {
     <>
     
       <div className="flex justify-center">
-        <span className='text-gray-500 font-black md:text-[20px] m-auto flex justify-center sm:text-[50px] xs:text-[40px] text-[30px]'>Get In Touch</span>
+        
       </div>
       <div className="flex justify-center">
         <span className="text-gray-500 font-black md:text-[30px] m-auto flex justify-center sm:text-[50px] xs:text-[40px] text-[30px]">Contact Me</span>

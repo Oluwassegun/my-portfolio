@@ -24,7 +24,10 @@ import {
     tripguide,
     threejs,
     screenshot,
-    auth
+    auth,
+    dashboard,
+    ecommerce,
+    avover
 
   } from "../assets";
   
@@ -38,6 +41,7 @@ import {
       title: "Work",
     },
   ];
+
   
   const services = [
     {
@@ -161,9 +165,40 @@ import {
   
   const projects = [
     {
-      name: "E-commerce",
+      name: "Avover Blog",
       description:
-        "Web-based platform that allows users to search and order most played games, providing a convenient and efficient solution for Gaming needs.",
+        "In my portfolio, I've developed a dynamic blog showcasing interviews with successful Nigerians. Through coding, I've crafted a platform emphasizing the importance of education and integrity on the path to success. This project demonstrates my ability to create impactful web applications that inspire and empower others particularly.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: 'sanity',
+          color: 'green-text-gradient'
+        },
+
+        {
+          name: 'TypeScript',
+          color: 'blue-text-gradient'
+        }
+      ],
+      image: avover,
+      source_code_link: "https://avover.vercel.app/",
+    },
+    
+    {
+      name: "E-commerce Gaming",
+      description:
+        "Immerse yourself in gaming with our platform. Effortlessly browse and order from a vast selection of popular titles. With intuitive search and user-friendly navigation, finding your favorites is a breeze. Whether casual or hardcore, we've got you covered. Stay updated with curated collections and latest releases. Join our community and elevate your gaming experience today.",
       tags: [
         {
           name: "react",
@@ -197,10 +232,11 @@ import {
       image: screenshot,
       source_code_link: "https://nexjs-ecommerce-seven.vercel.app/",
     },
+    
     {
       name: "Next Auth V5",
       description:
-        "The application provides secure authentication features, allowing users to seamlessly login, register, and verify their identities. Once logged in, users can easily update their personal information, including their names and details, ensuring a personalized and flexible user experience within the platform.",
+        "The application provides secure authentication features, allowing users to seamlessly login, register, and verify their identities. Once logged in, users can easily update their personal information, including their names and details,  ensuring a personalized and flexible user experience within the platform.",
       tags: [
         {
           name: "react",
@@ -229,6 +265,74 @@ import {
       ],
       image: auth,
       source_code_link: "https://next14-auth-masterclass-liart.vercel.app/",
+    },
+   
+    
+
+    {
+      name: "Ecommerce Store",
+      description:
+        "In my portfolio, I've created an expansive e-commerce store offering a wide range of products, including shoes, clothes, bicycles, and more. With sleek design and robust functionality, this platform provides a seamless shopping experience for customers looking to purchase a diverse array of items. From trendy apparel to essential accessories, this project showcases my ability to develop versatile and user-friendly e-commerce solutions.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: 'stripe',
+          color: 'green-text-gradient'
+        },
+       
+        {
+          name: 'TypeScript',
+          color: 'blue-text-gradient'
+        }
+      ],
+      image: ecommerce,
+      source_code_link: "https://e-commerce-store-theta-two.vercel.app/",
+    },
+
+
+    {
+      name: "Ecommerce Dashboard",
+      description:
+        "In my portfolio, I've also developed a comprehensive dashboard for managing the e-commerce store. This dashboard empowers administrators to efficiently oversee inventory, track sales, and manage customer orders with ease. With intuitive design and powerful features, this project demonstrates my proficiency in creating effective management tools to streamline business operations.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: 'Prisma',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'MySQL ',
+          color: 'green-text-gradient'
+        },
+        {
+          name: 'TypeScript',
+          color: 'blue-text-gradient'
+        }
+      ],
+      image: dashboard,
+      source_code_link: "https://e-commerce-main-three.vercel.app/",
     },
 
     

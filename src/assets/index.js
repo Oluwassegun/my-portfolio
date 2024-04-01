@@ -31,6 +31,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import screenshot from './screenshot.png'
 import auth from './auth.jpeg'
+import dashboard from './dashboard.jpeg'
+import ecommerce from './ecommerce.jpeg'
+import avover from './avover.jpeg'
 
 export {
   logo,
@@ -62,5 +65,8 @@ export {
   jobit,
   tripguide,
   screenshot,
-  auth
+  auth,
+  dashboard,
+  ecommerce,
+  avover
 };

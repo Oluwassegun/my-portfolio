@@ -10,54 +10,37 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 
-const ProjectCard = ({index, name, description,
-tags, image, source_code_link }) => {
-     return(
-      <Tilt>
-      <motion.div variants={fadeIn("up", "spring",
-      index * 0.5, 0.75)}>
-       <div 
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450
-        }} className="bg-tertiary p-5 rounded-2xl
-        sm:w-[360px] w-full relative h-auto">
-        <img src={image} alt={name} className="w-full
-        h-full object-cover rounded-2xl"/>
-          <h3 className="mt-5 text-white font-bold
-          text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary
-          text-[14px]">{description}</p>
+const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
+  return (
+    <Tilt>
+      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+        <div
+          onClick={() => {
+            window.open(source_code_link, "_blank");
+          }}
+          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-auto cursor-pointer"
+        >
+          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
+          <h3 className="mt-5 text-white font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-secondary text-[14px]">{description}</p>
           <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag) => (
-              <p key={tag.name} className={`text-[14px]
-              ${tag.color}`}>
+              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
                 #{tag.name}
               </p>
             ))}
-
           </div>
-        <div className="absolute inset-0 flex justify-end 
-        m-3 card-img_hover">
-             <div
-              onClick={() => {
-                window.open(source_code_link, '_blank')
-              }} className="black-gradient w-10 h-10
-              rounded-full mr-5 mt-5 flex justify-center 
-              items-center
-              cursor-pointer"
-              > 
-              <img src={github} alt="github" 
-              className="w-1/2 h-1/2" />
-              
-             </div>
-        </div>
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+            <div className=" w-10 h-10 rounded-full mr-5 mt-5 flex justify-center items-center cursor-pointer">
+           
+            </div>
+          </div>
         </div>
       </motion.div>
-       </Tilt>
-     )
-}
+    </Tilt>
+  );
+};
+
 
 
 
