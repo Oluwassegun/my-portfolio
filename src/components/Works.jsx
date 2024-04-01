@@ -18,9 +18,9 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           onClick={() => {
             window.open(source_code_link, "_blank");
           }}
-          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-auto cursor-pointer"
+          className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-[539px] overflow-hidden cursor-pointer"
         >
-          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
+          <img src={image} alt={name} className="w-full h-[150px] object-cover rounded-2xl" />
           <h3 className="mt-5 text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
           <div className="mt-4 flex flex-wrap gap-2">
